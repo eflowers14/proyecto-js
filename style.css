@@ -1,3 +1,13 @@
+.Relaja{
+    color: darkgoldenrod;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+.lorum {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1{
-    color: red;
+    text-align: center;
 }
