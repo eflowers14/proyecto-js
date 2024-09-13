@@ -11,3 +11,8 @@
 h1{
     text-align: center;
 }
+.body{
+    background: linear-gradient(to right, grey,skyblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -1,9 +1,17 @@
 img{
-    align-items: center;
     border-radius: 100px;
-    align-content: center;
+    padding-top: 10px;
 }
 a{
     margin-inline-end: 100px;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+body{
+    text-align: center;
+    background: lightgray;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
 }

@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    background: lightgray;
+}
+form{
+    background-color: rgb(148, 217, 238);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+input{
+    width: 12%;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: inset;
+}
