@@ -1,0 +1,26 @@
+.box {
+    width: 85%;
+    height: 200px;
+    margin: 0;
+    background-color: #7fffd4;
+    border-top-style: solid;
+    border-radius: 20px;
+    background: linear-gradient(rgb(103, 176, 185), transparent);
+    margin: auto;
+    color: black;
+}
+body{
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-acuarela-abstracta-acuarela-pintada-mano_23-2149012404.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    text-decoration: wavy;
+    text-shadow: white;
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    color: red;
+}
