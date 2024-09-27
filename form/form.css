@@ -1,0 +1,14 @@
+.container{
+    width: 100%;
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+html{
+    background: linear-gradient(black, rgb(65, 62, 62));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div{
+    border-radius: 20px;
+}
