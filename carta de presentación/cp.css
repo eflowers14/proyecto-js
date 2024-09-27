@@ -1,26 +1,35 @@
 div{
     margin: auto;
-    box-shadow: 0 0 20px rgb(53, 48, 48);
     border-radius: 20px;
     width: 75%;
     padding: 1%;
     background: linear-gradient(aquamarine, gray);
+}
 
-}
-h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(32, 30, 30);
-    padding-left: 5px;
-}
-p{
-    text-align: center;
-}    
-.despedida {
-    text-align: end;
-    padding-right: 15px;
-}
 html{
     background: linear-gradient(rgb(17, 110, 79),rgb(199, 196, 196));
     height: 100%;
     width: 100%;
+}
+.container{
+    display: grid;
+    box-shadow: 0 0 20px rgb(53, 48, 48);
+}
+.h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(32, 30, 30);
+    padding-left: 5px;
+    border-radius: unset;
+    background: transparent;
+}
+.p{
+    border-radius: unset;
+    border: unset;
+    background: transparent;
+}
+.despedida{
+    border-radius: unset;
+    border: unset;
+    background: transparent;
+    text-align: right;
 }
