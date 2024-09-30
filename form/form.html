@@ -7,15 +7,46 @@
     <title>Formularios</title>
 </head>
 <body>
-    <form class="container">
-    <div class="email">    
-        <input type="email" placeholder="no seas puto">
-    </div>
-    <div class="color">
-        <input type="color">
+    <h3>Formulario al Porno</h3>
+    <form>
+    <div class="email">  
+        <label>Correo Electrónico 
+            <input type="email" placeholder="no seas puto">
+        </label> 
     </div>
     <div class="password">
-        <input type="password" placeholder="Password">
+        <label>Contraseña
+            <input type="password" placeholder="Password">
+        </label>
+    </div>
+    <div class="user">
+        <label> Tipo de Usuario
+            <select name="User">
+                <option value="invitado">Invitado</option>
+                <option value="admin">Admin</option>
+                <option value="laboral">Laboral</option>
+            </select>
+        </label>
+    </div>
+    <div class="reference">
+        <label> Referencia
+            <input list="reference" name="User">
+            <datalist id="reference" name="User">
+                <option>Fidel</option>
+                <option>Hitler</option>
+                <option>Friends's Hater</option>
+            </datalist>
+        </label>
+    </div>
+    <div class="textArea">
+        <label>Mensaje
+            <textarea name="Mensaje" placeholder="Hablanos de ti"></textarea>
+        </label>
+    </div>
+    <div class="Captcha">
+        <label> Acepto Terminos y Condiciones
+            <input type="checkbox">
+        </label>
     </div>
     </form>
 </body>

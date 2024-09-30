@@ -1,0 +1,51 @@
+body{
+    background: rgb(32, 31, 31);
+}
+
+form{
+    box-shadow: 0 0 20px ghostwhite;
+    width: 50%;
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    color: ghostwhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+    background: rgb(78, 77, 77);
+    color: ghostwhite;
+    padding: 2px;
+    margin: 5px;
+    box-shadow: 0 0 3px white;
+    border-radius: 3px;
+}
+.submit1{
+    margin-left: 90%;
+    box-shadow: 0 0 3px red;
+}
+.submit2{
+    margin-left: 90%;
+    box-shadow: 0 0 3px blue;
+}
+fieldset{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px rgb(18, 18, 37);
+    border-radius: 6px;
+    box-shadow: 0 0 14px rgb(71, 67, 67);
+    color: ghostwhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p1{
+    padding-left: 2px;
+    border-left: 3px solid red ;
+}
+.p2{
+    padding-left: 3px;
+    border-left: 3px solid blue;
+}

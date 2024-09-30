@@ -1,8 +1,13 @@
-.container{
-    width: 100%;
-    padding-top: 20px;
+form{
+    max-width: 500px;
+    padding: 20px 0;
+    margin: auto;
+    margin-top: 50px;
     align-items: center;
-    text-align: center;
+    background: linear-gradient(rgb(58, 56, 56), rgb(182, 175, 175));
+    border-radius: 14px;
+    box-shadow: 0 0 20px ghostwhite;
+    text-shadow: 0 0 10px ghostwhite;
 }
 html{
     background: linear-gradient(black, rgb(65, 62, 62));
@@ -10,5 +15,10 @@ html{
     background-attachment: fixed;
 }
 div{
-    border-radius: 20px;
+    padding: 10px;
+}
+h3{
+    color: ghostwhite;
+    text-align: center;
+    padding-top: 20px;
 }
