@@ -1,16 +1,16 @@
 form{
-    max-width: 500px;
+    max-width: 700px;
     padding: 20px 0;
     margin: auto;
     margin-top: 50px;
     align-items: center;
-    background: linear-gradient(rgb(58, 56, 56), rgb(182, 175, 175));
+    background: linear-gradient(black, rgb(65, 62, 62));
     border-radius: 14px;
     box-shadow: 0 0 20px ghostwhite;
     text-shadow: 0 0 10px ghostwhite;
 }
 html{
-    background: linear-gradient(black, rgb(65, 62, 62));
+    background: linear-gradient(rgb(58, 56, 56), rgb(182, 175, 175));
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -21,4 +21,53 @@ h3{
     color: ghostwhite;
     text-align: center;
     padding-top: 20px;
+}
+input{
+    background: rgb(78, 77, 77);
+    color: ghostwhite;
+    padding: 2px;
+    margin: 5px;
+    box-shadow: 0 0 3px white;
+    border-radius: 3px;
+}
+.submit1{
+    margin-left: 90%;
+    box-shadow: 0 0 3px red;
+}
+.submit2{
+    margin-left: 90%;
+    box-shadow: 0 0 3px blue;
+}
+fieldset{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px rgb(18, 18, 37);
+    border-radius: 6px;
+    box-shadow: 0 0 14px rgb(71, 67, 67);
+    color: ghostwhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p1{
+    padding-left: 2px;
+    border-left: 3px solid red ;
+}
+.p2{
+    padding-left: 3px;
+    border-left: 3px solid blue;
+}
+.textArea{
+    color: rgb(27, 27, 29);
+    padding: 2px;
+    margin: 5px;
+}
+.checkbox{
+    color: rgb(65, 65, 70);
+    font-family: fantasy;
+}
+a{
+    color: rgba(5, 255, 255, 0.705);
+    text-decoration: none;
+    text-shadow: none;
 }

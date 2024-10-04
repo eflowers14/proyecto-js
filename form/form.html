@@ -4,32 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="form.css">
-    <title>Formularios</title>
+    <title>Form</title>
 </head>
 <body>
-    <h3>Formulario al Porno</h3>
+    <h3>Form</h3>
     <form>
+        <fieldset> <p class="p1">Basic Information</p>
+            <input type="text" placeholder="Name">  
+    <br>
+            <input type="text" placeholder="Last Name">
+    <br>
+            <input type="number" placeholder="Age">
+        </fieldset>
+        <fieldset> <p class="p2">Contact Information</p>
     <div class="email">  
-        <label>Correo Electrónico 
-            <input type="email" placeholder="no seas puto">
+        <label>Email 
+            <input type="email" placeholder="fuck you">
         </label> 
     </div>
     <div class="password">
-        <label>Contraseña
+        <label>Password
             <input type="password" placeholder="Password">
         </label>
     </div>
     <div class="user">
-        <label> Tipo de Usuario
+        <label> User Type
             <select name="User">
-                <option value="invitado">Invitado</option>
+                <option value="guest">Guest</option>
                 <option value="admin">Admin</option>
-                <option value="laboral">Laboral</option>
+                <option value="labor">Labor</option>
             </select>
         </label>
     </div>
+    <input type="text" placeholder="Phone Number">
+    <br>        
     <div class="reference">
-        <label> Referencia
+        <label> Reference
             <input list="reference" name="User">
             <datalist id="reference" name="User">
                 <option>Fidel</option>
@@ -38,16 +48,19 @@
             </datalist>
         </label>
     </div>
+    </fieldset>
     <div class="textArea">
-        <label>Mensaje
-            <textarea name="Mensaje" placeholder="Hablanos de ti"></textarea>
+        <label> Message
+            <br>
+            <textarea name="Mensaje" placeholder="Talk about you"></textarea>
         </label>
     </div>
     <div class="Captcha">
-        <label> Acepto Terminos y Condiciones
-            <input type="checkbox">
+        <label> I accept the <a href="terms.html" target="_blank">Terms and Conditions</a>
+            <input class="checkbox" type="checkbox">
         </label>
     </div>
+    <input class="submit2" type="submit">
     </form>
 </body>
 </html>
