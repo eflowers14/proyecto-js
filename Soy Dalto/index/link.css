@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+.nav{
+    background-color: rgb(240, 255, 152);
+    color: antiquewhite;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    padding: 10px 65px 10px 65px;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover{
+    background-color: burlywood;
+    box-shadow: 0 0 7px rgb(245, 245, 245);
+}

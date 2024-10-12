@@ -16,3 +16,7 @@ h1{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+img[src="Flowers.jpg"]{
+    width: 50%;
+    height: 30%;
+}
