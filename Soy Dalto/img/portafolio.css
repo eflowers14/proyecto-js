@@ -7,20 +7,30 @@ img{
     left: 25px;
     top: 15px;
 }
-a{
+button{
     margin-inline-end: 100px;
     text-align: center;
     font-family: monospace;
     text-decoration: none;
-    position: absolute;
-    top: 240px;
-}
-.CVLink{
-    left: 50px;
+    position: relative;
+    top: 320px;
+    right: 292px;
+    padding: 8px;
+    background: transparent;
+    box-shadow: 0 0 13px rgb(137, 87, 184);
+    border: none;
+    border-radius: 3px;
 }
 .hojaDeVidaLink{
-    left: 450px;
+    right: 110px;
 }
+.links{
+    right: 30px;
+}
+a{
+    text-decoration: none;
+}
+
 body{
     text-align: center;
 }
